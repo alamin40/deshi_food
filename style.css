@@ -1,7 +1,24 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: auto 0;
+    margin: 0;
 }
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
 
 h1{
     font-size: 50px;
@@ -32,7 +49,7 @@ h2{
     padding-right: 30px;
 }
 
-a{
+.a-gradien{
     text-decoration: none;
     padding: 5px 20px;
     background-image: linear-gradient(salmon,orange);
@@ -77,11 +94,22 @@ p{
     padding-left: 5px;
     padding-right: 5px;
 }
-footer{
-    text-align: center;
-    background-color: slategray;
+
+.div-footer{
+    background-color: lightslategray;
 }
-#footer-top{
-    padding-bottom: 50px;
-    
+.foot{
+
+    height: 150px;
+    background: black;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 10px;
+}
+.foot h4{
+    color: gray
+}
+.foot p{
+    color: white;
+    text-align: center;
 }
