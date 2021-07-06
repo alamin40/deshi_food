@@ -26,6 +26,9 @@ h3{
 .inner-body{
     margin-bottom: 50px;
 }
+.inner-body-padding{
+    padding-right: 30px;
+}
 
 a{
     text-decoration: none;
@@ -35,7 +38,15 @@ a{
 }
 p{
     text-align: justify;
+    border-image: linear-gradient(gray,white);
 }
 #second-section{
     background-image: url(images/Frame\ 58.jpg);
+}
+
+.recipies{
+    width: 25%;
+    padding: 40px;
+
+    
 }
