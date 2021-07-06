@@ -1,12 +1,14 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 h1{
     font-size: 50px;
 }
-h3{
+h2{
     font-size: 40px;
+    color: gray;
 }
 
 .flex{
@@ -45,8 +47,41 @@ p{
 }
 
 .recipies{
-    width: 25%;
-    padding: 40px;
+    width: 27%;
+    margin-left: 5%;
 
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 25px;
+
+    
+}
+.recipies-left{
+
+}
+.recipies-right{
+
+}
+#recipies-hedline{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.recipie-img{
+    padding-top: 10px;
+    padding-left: 19px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+.recipie-details{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer{
+    text-align: center;
+    background-color: slategray;
+}
+#footer-top{
+    padding-bottom: 50px;
     
 }
